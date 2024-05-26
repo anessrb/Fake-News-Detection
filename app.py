@@ -1,9 +1,6 @@
 from flask import Flask, request, render_template
 import pickle
-import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
-import pandas as pd
-import pandas as pd
 import re
 import string
 import nltk
@@ -11,18 +8,6 @@ from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 from nltk import word_tokenize
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import cross_val_score, train_test_split
-from sklearn.svm import SVC
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.utils import resample
-from imblearn.pipeline import Pipeline as ImbPipeline
-from imblearn.over_sampling import SMOTE
-from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Télécharger les ressources nltk nécessaires
 nltk.download('wordnet')
