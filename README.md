@@ -3,7 +3,7 @@
 ## Introduction
 This project aims to classify news articles as fake or true using various machine learning techniques. It includes binary and multi-class classifications to improve the accuracy and reliability of fake news detection.
 
-![Screenshot of Deployment](path_to_screenshot)
+![Screenshot of Deployment](Deploiement.png)
 
 ## Overview
 1. **Data Preprocessing**: 
@@ -47,4 +47,3 @@ The model was deployed using Flask, allowing users to input a news article title
 ## Conclusion
 This project highlights the importance of data preprocessing, class balancing, and model explainability in building reliable fake news detection systems. Despite challenges with dataset size and class imbalance, the project demonstrates promising approaches and provides a foundation for further improvements and exploration in fake news detection.
 
-![Screenshot of Deployment](Deploiement.png)
